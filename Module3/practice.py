@@ -3,7 +3,12 @@ password = 25
 
 # 1.告訴使用者需要輸入的數字範圍 input()
 while True:
-    num = int(input("請輸入數字1~100:"))
+    try:
+        num = int(input("請輸入數字1~100:"))
+    except:
+        print("請輸入數字")
+        continue
+
     if num == password:
         print("恭喜中獎")
         break
