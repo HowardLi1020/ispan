@@ -1,0 +1,24 @@
+{
+    "apple": {
+        "amount": 10,
+        "price": 7,
+        "color": [
+            "red",
+            "green"
+        ]
+    },
+    "orange": {
+        "amount": 5,
+        "price": 12,
+        "color": [
+            "orange"
+        ]
+    },
+    "tomato": {
+        "amount": 15,
+        "price": 8,
+        "color": [
+            "red"
+        ]
+    }
+}
